@@ -185,6 +185,12 @@ button{font:inherit;color:inherit;cursor:pointer}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
+/* footer */
+.site-footer{background:var(--ink);color:#fff;padding:20px 0;margin-top:0;text-align:center}
+.site-footer .wrap{display:flex;justify-content:center;align-items:center}
+.footer-dashboard-link{color:rgba(255,255,255,.5);font-size:12px;font-weight:700;text-decoration:none;letter-spacing:.05em;text-transform:uppercase;transition:color .15s}
+.footer-dashboard-link:hover{color:var(--orange)}
+
 .szrow.one .sp{flex:0 0 33.333%}
 .stlbl{white-space:nowrap}
 @media (max-width:640px){.stlbl{font-size:9.5px;letter-spacing:.03em}.stlbl .ar{font-size:11px;margin-inline-start:3px}}
