@@ -188,8 +188,8 @@ button{font:inherit;color:inherit;cursor:pointer}
 /* footer */
 .site-footer{background:var(--ink);color:#fff;padding:20px 0;margin-top:0;text-align:center}
 .site-footer .wrap{display:flex;justify-content:center;align-items:center}
-.footer-dashboard-link{color:rgba(255,255,255,.5);font-size:12px;font-weight:700;text-decoration:none;letter-spacing:.05em;text-transform:uppercase;transition:color .15s}
-.footer-dashboard-link:hover{color:var(--orange)}
+.footer-dashboard-link{display:inline-block;width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.25);transition:background .15s,transform .15s}
+.footer-dashboard-link:hover{background:var(--orange);transform:scale(1.5)}
 
 .szrow.one .sp{flex:0 0 33.333%}
 .stlbl{white-space:nowrap}
